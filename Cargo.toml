@@ -101,7 +101,7 @@ static_assertions = "1.1.0"
 thiserror = "2.0.11"
 
 # NOTE: Make sure to keep this in sync with the version badge in README.md and vello/README.md
-wgpu = { version = "24.0.1" }
+wgpu = { git = "https://github.com/KnorpelSenf/wgpu" }
 log = "0.4.22"
 image = { version = "0.25.5", default-features = false }
 
